@@ -17,7 +17,9 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.mcreator.sculkmod.world.features.plants.SculkLightFeature;
 import net.mcreator.sculkmod.world.features.ores.Sculk_GemOreFeature;
+import net.mcreator.sculkmod.world.features.SculkVillageFeature;
 import net.mcreator.sculkmod.SculkModMod;
 
 import java.util.function.Supplier;
@@ -31,6 +33,10 @@ public class SculkModModFeatures {
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> SCULK_GEM_ORE = register("sculk_gem_ore", Sculk_GemOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, Sculk_GemOreFeature.GENERATE_BIOMES, Sculk_GemOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SCULK_VILLAGE = register("sculk_village", SculkVillageFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.RAW_GENERATION, SculkVillageFeature.GENERATE_BIOMES, SculkVillageFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SCULK_LIGHT = register("sculk_light", SculkLightFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, SculkLightFeature.GENERATE_BIOMES, SculkLightFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

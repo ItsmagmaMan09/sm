@@ -5,11 +5,14 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Forest"
+      },
+      {
+        "value": "CUSTOM:SculkPlains"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:SculkBlock"
+      "value": "CUSTOM:SculkStone"
     },
     "fluidBlock": {
       "value": "CUSTOM:LiquidSculk"

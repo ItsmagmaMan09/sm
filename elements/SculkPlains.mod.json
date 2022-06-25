@@ -2,7 +2,7 @@
   "_fv": 28,
   "_type": "biome",
   "definition": {
-    "name": "Sculk Forest",
+    "name": "Sculk Plains",
     "groundBlock": {
       "value": "CUSTOM:SculkGrass"
     },
@@ -13,7 +13,7 @@
       "value": ""
     },
     "airColor": {
-      "value": -16764109,
+      "value": -16777165,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -43,7 +43,9 @@
     "spawnBiomeNether": false,
     "spawnInCaves": false,
     "biomeWeight": 10,
-    "biomeDictionaryTypes": [],
+    "biomeDictionaryTypes": [
+      "PLAINS"
+    ],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,
@@ -53,10 +55,10 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 22,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Birch trees",
     "treeType": 1,
-    "minHeight": 6,
+    "minHeight": 7,
     "treeStem": {
       "value": "CUSTOM:SculkLog"
     },
@@ -85,7 +87,7 @@
     "spawnBuriedTreasure": false,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
-    "spawnNetherFossil": true,
+    "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
@@ -94,16 +96,6 @@
       "Ores",
       "FrozenTopLayer"
     ],
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "CUSTOM:Sculkfox"
-        },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "ambient"
-      }
-    ]
+    "spawnEntries": []
   }
 }

@@ -545,14 +545,106 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculk_stone"
+    },
+    {
+      "name": "SculkVillage",
+      "type": "structure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_village"
+    },
+    {
+      "name": "SculkLight",
+      "type": "plant",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_light"
+    },
+    {
+      "name": "SpawnVillager",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_villager",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkPlains",
+      "type": "biome",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_plains"
+    },
+    {
+      "name": "SculkLightBlock",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_light_block"
+    },
+    {
+      "name": "Givelightblock",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "givelightblock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sculk_mod.sculkthing_spawn_egg": "Sculkthing Spawn Egg",
-      "item.sculk_mod.sculk_gem_armor_helmet": "Sculk_Gem Helmet",
+      "item.sculk_mod.sculkthing_spawn_egg": "Sculk Man Spawn Egg",
+      "item.sculk_mod.sculk_gem_armor_helmet": "Sculk Gem Helmet",
       "block.sculk_mod.sculk_log": "Sculk Log",
       "block.sculk_mod.liquid_sculk": "Liquid Sculk",
       "block.sculk_mod.sculk_fence_gate": "Sculk Fence Gate",
@@ -560,10 +652,11 @@
       "block.sculk_mod.sculk_button": "Sculk Button",
       "item.sculk_mod.sculk_world": "Sculk World Portal Igniter",
       "block.sculk_mod.sculk_leaves": "Sculk Leaves",
-      "item.sculk_mod.sculk_gem_hoe": "Sculk_Gem Hoe",
-      "item.sculk_mod.sculk_gem_armor_boots": "Sculk_Gem Boots",
-      "item.sculk_mod.sculk_gem_sword": "Sculk_Gem Sword",
+      "item.sculk_mod.sculk_gem_hoe": "Sculk Gem Hoe",
+      "item.sculk_mod.sculk_gem_armor_boots": "Sculk Gem Boots",
+      "biome.sculk_mod.sculk_plains": "Sculk Plains",
       "item.sculk_mod.cheap_warden_spawn_egg": "Cheap Warden Spawn Egg",
+      "item.sculk_mod.sculk_gem_sword": "Sculk Gem Sword",
       "biome.sculk_mod.forest": "Sculk Forest",
       "block.sculk_mod.sculk_gem_ore": "Sculk Gem Ore",
       "block.sculk_mod.sculk_stairs": "Sculk Stairs",
@@ -571,26 +664,28 @@
       "entity.sculk_mod.sculkthing": "Sculkthing",
       "block.sculk_mod.sculkfruit": "Sculk Fruit",
       "block.sculk_mod.sculk_grass": "Sculk Grass",
+      "block.sculk_mod.sculk_light": "Sculk Light Flower",
       "item.sculk_mod.sculk_gem": "Sculk_Gem",
-      "block.sculk_mod.sculk_gem_block": "Block of Sculk_Gem",
+      "block.sculk_mod.sculk_gem_block": "Block of Sculk Gem",
       "fluid.sculk_mod.liquid_sculk": "Liquid Sculk",
       "item.sculk_mod.sculk_gem_shovel": "Sculk_Gem Shovel",
       "block.sculk_mod.sculk_block": "Sculk Block",
       "block.sculk_mod.sculk_pressure_plate": "Sculk Pressure Plate",
-      "item.sculk_mod.sculk_gem_pickaxe": "Sculk_Gem Pickaxe",
+      "item.sculk_mod.sculk_gem_pickaxe": "Sculk Gem Pickaxe",
       "entity.sculk_mod.phantomsculk": "Phantomsculk",
       "block.sculk_mod.sculk_wood": "Sculk Wood",
       "block.sculk_mod.sculk_fence": "Sculk Fence",
-      "item.sculk_mod.sculk_gem_armor_chestplate": "Sculk_Gem Chestplate",
+      "item.sculk_mod.sculk_gem_armor_chestplate": "Sculk Gem Chestplate",
       "entity.sculk_mod.cheap_warden": "Cheap Warden",
       "item.sculk_mod.liquid_sculk_bucket": "Liquid Sculk Bucket",
       "biome.sculk_mod.deep_dark": "Deep Dark",
       "item.sculk_mod.phantomsculk_spawn_egg": "Phantomsculk Spawn Egg",
       "block.sculk_mod.sculk_stone": "Sculk Stone",
-      "item.sculk_mod.sculk_gem_axe": "Sculk_Gem Axe",
+      "item.sculk_mod.sculk_gem_axe": "Sculk Gem Axe",
       "block.sculk_mod.sculk_slab": "Sculk Slab",
+      "block.sculk_mod.sculk_light_block": "Sculk Light Block",
       "entity.sculk_mod.sculkfox": "Sculk Fox",
-      "item.sculk_mod.sculk_gem_armor_leggings": "Sculk_Gem Leggings"
+      "item.sculk_mod.sculk_gem_armor_leggings": "Sculk Gem Leggings"
     }
   },
   "foldersRoot": {

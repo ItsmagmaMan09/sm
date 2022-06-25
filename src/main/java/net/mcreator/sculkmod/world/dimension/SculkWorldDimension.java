@@ -28,6 +28,8 @@ public class SculkWorldDimension {
 		@SubscribeEvent
 		public static void registerFillerBlocks(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
+			replaceableBlocks.add(SculkModModBlocks.SCULK_STONE.get());
+			replaceableBlocks.add(SculkModModBlocks.SCULK_GRASS.get());
 			replaceableBlocks.add(SculkModModBlocks.SCULK_BLOCK.get());
 			replaceableBlocks.add(SculkModModBlocks.SCULK_GRASS.get());
 			replaceableBlocks.add(SculkModModBlocks.SCULK_BLOCK.get());

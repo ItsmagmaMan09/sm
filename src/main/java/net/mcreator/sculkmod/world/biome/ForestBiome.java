@@ -17,12 +17,14 @@ import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.biome.BiomeSpecialEffects;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 
 import net.mcreator.sculkmod.world.features.treedecorators.ForestFruitDecorator;
+import net.mcreator.sculkmod.init.SculkModModEntities;
 import net.mcreator.sculkmod.init.SculkModModBlocks;
 
 import java.util.List;
@@ -51,6 +53,7 @@ public class ForestBiome {
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
 		BiomeDefaultFeatures.addSurfaceFreezing(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
+		mobSpawnInfo.addSpawn(MobCategory.AMBIENT, new MobSpawnSettings.SpawnerData(SculkModModEntities.SCULKFOX.get(), 20, 4, 4));
 		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(0.5f)
 				.downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
 				.build();

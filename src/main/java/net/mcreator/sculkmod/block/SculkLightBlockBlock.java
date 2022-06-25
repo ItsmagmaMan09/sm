@@ -1,6 +1,8 @@
 
 package net.mcreator.sculkmod.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
@@ -14,9 +16,9 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class SculkStoneBlock extends Block {
-	public SculkStoneBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f));
+public class SculkLightBlockBlock extends Block {
+	public SculkLightBlockBlock() {
+		super(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.WOOL).strength(1f, 10f).lightLevel(s -> 15));
 	}
 
 	@Override

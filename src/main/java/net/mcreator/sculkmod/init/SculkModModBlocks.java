@@ -25,6 +25,8 @@ import net.mcreator.sculkmod.block.SculkSlabBlock;
 import net.mcreator.sculkmod.block.SculkPressurePlateBlock;
 import net.mcreator.sculkmod.block.SculkPlanksBlock;
 import net.mcreator.sculkmod.block.SculkLogBlock;
+import net.mcreator.sculkmod.block.SculkLightBlockBlock;
+import net.mcreator.sculkmod.block.SculkLightBlock;
 import net.mcreator.sculkmod.block.SculkLeavesBlock;
 import net.mcreator.sculkmod.block.SculkGrassBlock;
 import net.mcreator.sculkmod.block.SculkFenceGateBlock;
@@ -54,6 +56,8 @@ public class SculkModModBlocks {
 	public static final RegistryObject<Block> SCULK_GRASS = REGISTRY.register("sculk_grass", () -> new SculkGrassBlock());
 	public static final RegistryObject<Block> SCULKFRUIT = REGISTRY.register("sculkfruit", () -> new SculkfruitBlock());
 	public static final RegistryObject<Block> SCULK_STONE = REGISTRY.register("sculk_stone", () -> new SculkStoneBlock());
+	public static final RegistryObject<Block> SCULK_LIGHT = REGISTRY.register("sculk_light", () -> new SculkLightBlock());
+	public static final RegistryObject<Block> SCULK_LIGHT_BLOCK = REGISTRY.register("sculk_light_block", () -> new SculkLightBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -61,6 +65,7 @@ public class SculkModModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			SculkLeavesBlock.registerRenderLayer();
 			SculkfruitBlock.registerRenderLayer();
+			SculkLightBlock.registerRenderLayer();
 		}
 	}
 }

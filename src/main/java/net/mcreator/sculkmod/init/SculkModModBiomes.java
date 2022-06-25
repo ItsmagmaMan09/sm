@@ -29,6 +29,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.mcreator.sculkmod.world.biome.SculkPlainsBiome;
 import net.mcreator.sculkmod.world.biome.ForestBiome;
 import net.mcreator.sculkmod.world.biome.DeepDarkBiome;
 import net.mcreator.sculkmod.SculkModMod;
@@ -44,12 +45,14 @@ public class SculkModModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, SculkModMod.MODID);
 	public static final RegistryObject<Biome> FOREST = REGISTRY.register("forest", () -> ForestBiome.createBiome());
 	public static final RegistryObject<Biome> DEEP_DARK = REGISTRY.register("deep_dark", () -> DeepDarkBiome.createBiome());
+	public static final RegistryObject<Biome> SCULK_PLAINS = REGISTRY.register("sculk_plains", () -> SculkPlainsBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			ForestBiome.init();
 			DeepDarkBiome.init();
+			SculkPlainsBiome.init();
 		});
 	}
 
