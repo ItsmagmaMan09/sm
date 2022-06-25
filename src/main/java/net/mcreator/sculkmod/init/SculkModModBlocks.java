@@ -19,6 +19,7 @@ import net.mcreator.sculkmod.block.Sculk_GemOreBlock;
 import net.mcreator.sculkmod.block.Sculk_GemBlockBlock;
 import net.mcreator.sculkmod.block.SculkWorldPortalBlock;
 import net.mcreator.sculkmod.block.SculkWoodBlock;
+import net.mcreator.sculkmod.block.SculkStoneBlock;
 import net.mcreator.sculkmod.block.SculkStairsBlock;
 import net.mcreator.sculkmod.block.SculkSlabBlock;
 import net.mcreator.sculkmod.block.SculkPressurePlateBlock;
@@ -52,6 +53,7 @@ public class SculkModModBlocks {
 	public static final RegistryObject<Block> SCULK_GEM_BLOCK = REGISTRY.register("sculk_gem_block", () -> new Sculk_GemBlockBlock());
 	public static final RegistryObject<Block> SCULK_GRASS = REGISTRY.register("sculk_grass", () -> new SculkGrassBlock());
 	public static final RegistryObject<Block> SCULKFRUIT = REGISTRY.register("sculkfruit", () -> new SculkfruitBlock());
+	public static final RegistryObject<Block> SCULK_STONE = REGISTRY.register("sculk_stone", () -> new SculkStoneBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

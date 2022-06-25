@@ -65,6 +65,7 @@ public class SculkModModItems {
 			() -> new ForgeSpawnEggItem(SculkModModEntities.SCULKTHING, -16764109, -16751002, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> PHANTOMSCULK = REGISTRY.register("phantomsculk_spawn_egg",
 			() -> new ForgeSpawnEggItem(SculkModModEntities.PHANTOMSCULK, -16737895, -6684673, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> SCULK_STONE = block(SculkModModBlocks.SCULK_STONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
