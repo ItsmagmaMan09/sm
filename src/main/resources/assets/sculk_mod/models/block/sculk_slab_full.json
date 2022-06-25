@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "sculk_mod:blocks/sculk_planks",
+    "top": "sculk_mod:blocks/sculk_planks",
+    "side": "sculk_mod:blocks/sculk_planks"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "sculk_mod:sculk_gem"
+    },
+    "1": {
+      "item": "sculk_mod:sculk_gem"
+    },
+    "2": {
+      "item": "sculk_mod:sculk_gem"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "sculk_mod:sculk_gem_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "sculk_mod:sculk_wood",
+    "sculk_mod:sculk_log",
+    "sculk_mod:sculk_planks"
+  ]
+}

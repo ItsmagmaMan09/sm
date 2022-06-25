@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sculk_mod:block/sculkfruit"
+    },
+    "facing=east": {
+      "model": "sculk_mod:block/sculkfruit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sculk_mod:block/sculkfruit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sculk_mod:block/sculkfruit",
+      "y": 270
+    }
+  }
+}

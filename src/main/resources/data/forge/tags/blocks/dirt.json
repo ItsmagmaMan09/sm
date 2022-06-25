@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "sculk_mod:sculk_grass",
+    "sculk_mod:sculk_block"
+  ]
+}

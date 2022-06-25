@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "sculk_mod:blocks/sculk_planks",
+    "particle": "sculk_mod:blocks/sculk_planks"
+  }
+}

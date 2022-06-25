@@ -1,0 +1,8 @@
+{
+  "parent": "sculk_mod:custom/sculk_fruit",
+  "textures": {
+    "all": "sculk_mod:blocks/sckulk_fruit",
+    "particle": "sculk_mod:blocks/sckulk_fruit",
+    "0": "sculk_mod:blocks/sckulk_fruit"
+  }
+}

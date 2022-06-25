@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sculk_mod:sculk_gem_block"
+    }
+  ],
+  "result": {
+    "item": "sculk_mod:sculk_gem",
+    "count": 9
+  }
+}

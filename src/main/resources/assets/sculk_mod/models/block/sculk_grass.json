@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sculk_mod:blocks/sculk",
+    "up": "sculk_mod:blocks/opk",
+    "north": "sculk_mod:blocks/sculk_grass_side",
+    "east": "sculk_mod:blocks/sculk_grass_side",
+    "south": "sculk_mod:blocks/sculk_grass_side",
+    "west": "sculk_mod:blocks/sculk_grass_side",
+    "particle": "sculk_mod:blocks/sculk"
+  }
+}

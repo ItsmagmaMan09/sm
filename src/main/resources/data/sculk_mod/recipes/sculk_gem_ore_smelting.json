@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "sculk_mod:sculk_gem_ore"
+  },
+  "result": "sculk_mod:sculk_gem"
+}

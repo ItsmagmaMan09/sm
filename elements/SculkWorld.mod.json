@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Forest"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:SculkBlock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:LiquidSculk"
+    },
+    "airColor": {
+      "value": -16777165,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.DEEPSLATE"
+    },
+    "portalParticles": {
+      "value": "SOUL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Sculk World Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "hmm",
+    "portalTexture": "sculk",
+    "enablePortal": true
+  }
+}

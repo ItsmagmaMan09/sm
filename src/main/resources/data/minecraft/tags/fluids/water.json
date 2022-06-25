@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "sculk_mod:liquid_sculk",
+    "sculk_mod:flowing_liquid_sculk"
+  ]
+}

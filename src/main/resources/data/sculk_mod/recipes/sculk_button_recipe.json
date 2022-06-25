@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sculk_mod:sculk_planks"
+    }
+  ],
+  "result": {
+    "item": "sculk_mod:sculk_button",
+    "count": 1
+  }
+}

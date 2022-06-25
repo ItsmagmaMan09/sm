@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "sculk_mod:sculk_gem"
+    },
+    "1": {
+      "item": "sculk_mod:sculk_gem"
+    },
+    "2": {
+      "item": "sculk_mod:sculk_gem"
+    },
+    "3": {
+      "item": "sculk_mod:sculk_gem"
+    },
+    "5": {
+      "item": "sculk_mod:sculk_gem"
+    }
+  },
+  "result": {
+    "item": "sculk_mod:sculk_gem_armor_helmet",
+    "count": 1
+  }
+}

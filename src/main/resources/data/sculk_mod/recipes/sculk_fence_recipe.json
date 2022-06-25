@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "sculk_mod:sculk_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "sculk_mod:sculk_planks"
+    },
+    "3": {
+      "item": "sculk_mod:sculk_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "sculk_mod:sculk_planks"
+    }
+  },
+  "result": {
+    "item": "sculk_mod:sculk_fence",
+    "count": 3
+  }
+}

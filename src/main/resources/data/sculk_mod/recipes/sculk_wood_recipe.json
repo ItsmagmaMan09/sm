@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sculk_mod:sculk_log"
+    }
+  ],
+  "result": {
+    "item": "sculk_mod:sculk_wood",
+    "count": 4
+  }
+}

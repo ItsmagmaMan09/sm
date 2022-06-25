@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "sculk_mod:sculk_gem"
+    },
+    "1": {
+      "item": "sculk_mod:sculk_gem"
+    },
+    "2": {
+      "item": "sculk_mod:sculk_gem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "sculk_mod:sculk_gem_pickaxe",
+    "count": 1
+  }
+}

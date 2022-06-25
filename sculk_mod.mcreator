@@ -1,0 +1,610 @@
+{
+  "mod_elements": [
+    {
+      "name": "SculkBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_block"
+    },
+    {
+      "name": "LiquidSculk",
+      "type": "fluid",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_sculk",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "SculkWood",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_wood"
+    },
+    {
+      "name": "SculkLog",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_log"
+    },
+    {
+      "name": "SculkPlanks",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_planks"
+    },
+    {
+      "name": "SculkLeaves",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_leaves"
+    },
+    {
+      "name": "SculkStairs",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_stairs"
+    },
+    {
+      "name": "SculkSlab",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_slab"
+    },
+    {
+      "name": "SculkFence",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_fence"
+    },
+    {
+      "name": "SculkFenceGate",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_fence_gate"
+    },
+    {
+      "name": "SculkPressurePlate",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_pressure_plate"
+    },
+    {
+      "name": "SculkButton",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_button"
+    },
+    {
+      "name": "SculkItemsTag",
+      "type": "tag",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_items_tag"
+    },
+    {
+      "name": "SculkWoodRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_wood_recipe"
+    },
+    {
+      "name": "SculkPlanksRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_planks_recipe"
+    },
+    {
+      "name": "SculkStairsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_stairs_recipe"
+    },
+    {
+      "name": "SculkSlabRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_slab_recipe"
+    },
+    {
+      "name": "SculkFenceRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_fence_recipe"
+    },
+    {
+      "name": "SculkFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_fence_gate_recipe"
+    },
+    {
+      "name": "SculkPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_pressure_plate_recipe"
+    },
+    {
+      "name": "SculkButtonRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_button_recipe"
+    },
+    {
+      "name": "SculkStickRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_stick_recipe"
+    },
+    {
+      "name": "Sculk_Gem",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem"
+    },
+    {
+      "name": "Sculk_GemOre",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_ore"
+    },
+    {
+      "name": "Sculk_GemBlock",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_block"
+    },
+    {
+      "name": "Sculk_GemOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_ore_block_recipe"
+    },
+    {
+      "name": "Sculk_GemBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_block_ore_recipe"
+    },
+    {
+      "name": "Sculk_GemOreSmelting",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_ore_smelting"
+    },
+    {
+      "name": "Sculk_GemPickaxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_pickaxe"
+    },
+    {
+      "name": "Sculk_GemAxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_axe"
+    },
+    {
+      "name": "Sculk_GemSword",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_sword"
+    },
+    {
+      "name": "Sculk_GemShovel",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_shovel"
+    },
+    {
+      "name": "Sculk_GemHoe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_hoe"
+    },
+    {
+      "name": "Sculk_GemPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_pickaxe_recipe"
+    },
+    {
+      "name": "Sculk_GemAxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_axe_recipe"
+    },
+    {
+      "name": "Sculk_GemSwordRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_sword_recipe"
+    },
+    {
+      "name": "Sculk_GemShovelRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_shovel_recipe"
+    },
+    {
+      "name": "Sculk_GemHoeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_hoe_recipe"
+    },
+    {
+      "name": "Sculk_GemArmor",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Sculk_GemArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_armor_helmet_recipe"
+    },
+    {
+      "name": "Sculk_GemArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_armor_body_recipe"
+    },
+    {
+      "name": "Sculk_GemArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_armor_leggings_recipe"
+    },
+    {
+      "name": "Sculk_GemArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_armor_boots_recipe"
+    },
+    {
+      "name": "SculkWorld",
+      "type": "dimension",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_world",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "SculkfruitPlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkfruit_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkfruitParticleSpawningCondition",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkfruit_particle_spawning_condition",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SculkGrass",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_grass"
+    },
+    {
+      "name": "Sculkfruit",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkfruit"
+    },
+    {
+      "name": "Forest",
+      "type": "biome",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest"
+    },
+    {
+      "name": "SculkfoxPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkfox_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sculkfox",
+      "type": "livingentity",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkfox"
+    },
+    {
+      "name": "Dirt",
+      "type": "tag",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt"
+    },
+    {
+      "name": "CheapWarden",
+      "type": "livingentity",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheap_warden"
+    },
+    {
+      "name": "DeepDark",
+      "type": "biome",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_dark"
+    },
+    {
+      "name": "Phantomsculk",
+      "type": "livingentity",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantomsculk"
+    },
+    {
+      "name": "Sculkthing",
+      "type": "livingentity",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkthing"
+    },
+    {
+      "name": "SculkthingEntityIsHurt",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkthing_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PhantomsculkEntityIsHurt",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantomsculk_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PhantomsculkParticleSpawningCondition",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantomsculk_particle_spawning_condition",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SculkthingPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkthing_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.sculk_mod.sculkthing_spawn_egg": "Sculkthing Spawn Egg",
+      "item.sculk_mod.sculk_gem_armor_helmet": "Sculk_Gem Helmet",
+      "block.sculk_mod.sculk_log": "Sculk Log",
+      "block.sculk_mod.liquid_sculk": "Liquid Sculk",
+      "block.sculk_mod.sculk_fence_gate": "Sculk Fence Gate",
+      "item.sculk_mod.sculkfox_spawn_egg": "Sculk Fox Spawn Egg",
+      "block.sculk_mod.sculk_button": "Sculk Button",
+      "item.sculk_mod.sculk_world": "Sculk World Portal Igniter",
+      "block.sculk_mod.sculk_leaves": "Sculk Leaves",
+      "item.sculk_mod.sculk_gem_hoe": "Sculk_Gem Hoe",
+      "item.sculk_mod.sculk_gem_armor_boots": "Sculk_Gem Boots",
+      "item.sculk_mod.cheap_warden_spawn_egg": "Cheap Warden Spawn Egg",
+      "item.sculk_mod.sculk_gem_sword": "Sculk_Gem Sword",
+      "biome.sculk_mod.forest": "Sculk Forest",
+      "block.sculk_mod.sculk_gem_ore": "Sculk Gem Ore",
+      "block.sculk_mod.sculk_stairs": "Sculk Stairs",
+      "block.sculk_mod.sculk_planks": "Sculk Planks",
+      "entity.sculk_mod.sculkthing": "Sculkthing",
+      "block.sculk_mod.sculkfruit": "Sculk Fruit",
+      "block.sculk_mod.sculk_grass": "Sculk Grass",
+      "item.sculk_mod.sculk_gem": "Sculk_Gem",
+      "block.sculk_mod.sculk_gem_block": "Block of Sculk_Gem",
+      "fluid.sculk_mod.liquid_sculk": "Liquid Sculk",
+      "item.sculk_mod.sculk_gem_shovel": "Sculk_Gem Shovel",
+      "block.sculk_mod.sculk_block": "Sculk Block",
+      "block.sculk_mod.sculk_pressure_plate": "Sculk Pressure Plate",
+      "item.sculk_mod.sculk_gem_pickaxe": "Sculk_Gem Pickaxe",
+      "entity.sculk_mod.phantomsculk": "Phantomsculk",
+      "block.sculk_mod.sculk_wood": "Sculk Wood",
+      "block.sculk_mod.sculk_fence": "Sculk Fence",
+      "item.sculk_mod.sculk_gem_armor_chestplate": "Sculk_Gem Chestplate",
+      "entity.sculk_mod.cheap_warden": "Cheap Warden",
+      "item.sculk_mod.liquid_sculk_bucket": "Liquid Sculk Bucket",
+      "biome.sculk_mod.deep_dark": "Deep Dark",
+      "item.sculk_mod.phantomsculk_spawn_egg": "Phantomsculk Spawn Egg",
+      "item.sculk_mod.sculk_gem_axe": "Sculk_Gem Axe",
+      "block.sculk_mod.sculk_slab": "Sculk Slab",
+      "entity.sculk_mod.sculkfox": "Sculk Fox",
+      "item.sculk_mod.sculk_gem_armor_leggings": "Sculk_Gem Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sculk_mod",
+    "modName": "Sculk_Mod",
+    "version": "1.0.0",
+    "author": "ACJac, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sculkmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

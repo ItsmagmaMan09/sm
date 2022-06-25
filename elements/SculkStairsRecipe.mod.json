@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SculkPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SculkPlanks"
+      },
+      {
+        "value": "CUSTOM:SculkPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SculkPlanks"
+      },
+      {
+        "value": "CUSTOM:SculkPlanks"
+      },
+      {
+        "value": "CUSTOM:SculkPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SculkStairs"
+    },
+    "name": "sculk_stairs_recipe",
+    "namespace": "mod"
+  }
+}

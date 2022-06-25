@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "sculk_mod:sculk_planks"
+    },
+    "1": {
+      "item": "sculk_mod:sculk_planks"
+    }
+  },
+  "result": {
+    "item": "sculk_mod:sculk_pressure_plate",
+    "count": 1
+  }
+}
