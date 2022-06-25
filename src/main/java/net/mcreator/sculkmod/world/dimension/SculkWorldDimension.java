@@ -33,6 +33,8 @@ public class SculkWorldDimension {
 			replaceableBlocks.add(SculkModModBlocks.SCULK_BLOCK.get());
 			replaceableBlocks.add(SculkModModBlocks.SCULK_GRASS.get());
 			replaceableBlocks.add(SculkModModBlocks.SCULK_BLOCK.get());
+			replaceableBlocks.add(SculkModModBlocks.SCULK_BLOCK.get());
+			replaceableBlocks.add(SculkModModBlocks.SCULK_BLOCK.get());
 			event.enqueueWork(() -> {
 				WorldCarver.CAVE.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CAVE.replaceableBlocks)
 						.addAll(replaceableBlocks).build();

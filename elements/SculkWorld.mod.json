@@ -8,6 +8,9 @@
       },
       {
         "value": "CUSTOM:SculkPlains"
+      },
+      {
+        "value": "CUSTOM:DeepDark"
       }
     ],
     "worldGenType": "Normal world gen",

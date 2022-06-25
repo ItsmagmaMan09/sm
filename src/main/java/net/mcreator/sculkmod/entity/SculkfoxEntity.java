@@ -120,6 +120,7 @@ public class SculkfoxEntity extends TamableAnimal {
 
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
+		FoxKillAdvProcedure.execute(this);
 		if (source.getDirectEntity() instanceof ThrownPotion || source.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
 		if (source == DamageSource.FALL)

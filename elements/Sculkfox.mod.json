@@ -101,6 +101,9 @@
     "whenMobDies": {
       "name": "FoxKillAdv"
     },
+    "whenMobIsHurt": {
+      "name": "FoxKillAdv"
+    },
     "onPlayerCollidesWith": {
       "name": "SculkfoxPlayerCollidesWithThisEntity"
     },
