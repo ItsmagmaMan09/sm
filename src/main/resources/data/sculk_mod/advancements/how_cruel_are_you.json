@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "sculk_mod:sculk_gem_sword"
+    },
+    "title": {
+      "translate": "advancements.how_cruel_are_you.title"
+    },
+    "description": {
+      "translate": "advancements.how_cruel_are_you.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "how_cruel_are_you": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "sculk_mod:we_nead_to_go_even_deeper"
+}

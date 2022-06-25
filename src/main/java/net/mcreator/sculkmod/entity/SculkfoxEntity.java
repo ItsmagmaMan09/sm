@@ -48,6 +48,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.sculkmod.procedures.SculkfoxPlayerCollidesWithThisEntityProcedure;
+import net.mcreator.sculkmod.procedures.FoxKillAdvProcedure;
 import net.mcreator.sculkmod.init.SculkModModEntities;
 import net.mcreator.sculkmod.init.SculkModModBlocks;
 
@@ -140,6 +141,12 @@ public class SculkfoxEntity extends TamableAnimal {
 		if (source.getMsgId().equals("witherSkull"))
 			return false;
 		return super.hurt(source, amount);
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		FoxKillAdvProcedure.execute(this);
 	}
 
 	@Override

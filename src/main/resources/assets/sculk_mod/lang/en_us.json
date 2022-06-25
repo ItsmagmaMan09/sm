@@ -26,6 +26,7 @@
   "fluid.sculk_mod.liquid_sculk": "Liquid Sculk",
   "item.sculk_mod.sculk_gem_shovel": "Sculk_Gem Shovel",
   "block.sculk_mod.sculk_block": "Sculk Block",
+  "advancements.how_cruel_are_you.descr": "Why in the world whould you kill a sculk fox, there so sweat!",
   "block.sculk_mod.sculk_pressure_plate": "Sculk Pressure Plate",
   "item.sculk_mod.sculk_gem_pickaxe": "Sculk_Gem Pickaxe",
   "entity.sculk_mod.phantomsculk": "Phantomsculk",
@@ -33,13 +34,16 @@
   "block.sculk_mod.sculk_fence": "Sculk Fence",
   "item.sculk_mod.sculk_gem_armor_chestplate": "Sculk_Gem Chestplate",
   "entity.sculk_mod.cheap_warden": "Cheap Warden",
+  "advancements.we_nead_to_go_even_deeper.title": "We Nead To Go Even Deeper",
   "item.sculk_mod.liquid_sculk_bucket": "Liquid Sculk Bucket",
   "biome.sculk_mod.deep_dark": "Deep Dark",
   "item.sculk_mod.phantomsculk_spawn_egg": "Phantomsculk Spawn Egg",
   "block.sculk_mod.sculk_stone": "Sculk Stone",
   "item.sculk_mod.sculk_gem_axe": "Sculk Gem Axe",
   "block.sculk_mod.sculk_slab": "Sculk Slab",
+  "advancements.how_cruel_are_you.title": "How Cruel Are You?",
   "block.sculk_mod.sculk_light_block": "Sculk Light Block",
   "entity.sculk_mod.sculkfox": "Sculk Fox",
-  "item.sculk_mod.sculk_gem_armor_leggings": "Sculk_Gem Leggings"
+  "item.sculk_mod.sculk_gem_armor_leggings": "Sculk_Gem Leggings",
+  "advancements.we_nead_to_go_even_deeper.descr": "Go into The Sculk world"
 }
