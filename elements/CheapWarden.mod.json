@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Cheap Warden",
     "mobLabel": "",
-    "mobModelName": "Modelwarden",
+    "mobModelName": "Biped",
     "mobModelTexture": "warden.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
@@ -93,7 +93,7 @@
     },
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "SPIT"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,

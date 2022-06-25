@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "sculk_mod:forest"
+    "sculk_mod:forest",
+    "sculk_mod:deep_dark"
   ]
 }

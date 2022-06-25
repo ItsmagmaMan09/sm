@@ -14,23 +14,23 @@ public class Sculk_GemAxeItem extends AxeItem {
 	public Sculk_GemAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 12f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 12f;
 			}
 
 			public int getLevel() {
-				return 2;
+				return 12;
 			}
 
 			public int getEnchantmentValue() {
-				return 14;
+				return 21;
 			}
 
 			public Ingredient getRepairIngredient() {

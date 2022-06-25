@@ -14,11 +14,11 @@ public class Sculk_GemPickaxeItem extends PickaxeItem {
 	public Sculk_GemPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 12f;
 			}
 
 			public float getAttackDamageBonus() {

@@ -26,7 +26,7 @@ public abstract class Sculk_GemArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{6, 18, 15, 6}[slot.getIndex()];
 			}
 
 			@Override
