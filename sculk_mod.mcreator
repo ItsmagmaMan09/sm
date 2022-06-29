@@ -684,8 +684,8 @@
   "language_map": {
     "en_us": {
       "item.sculk_mod.sculk_gem_armor_helmet": "Sculk_Gem Helmet",
-      "block.sculk_mod.sculk_fence_gate": "Sculk Fence Gate",
       "block.sculk_mod.liquid_sculk": "Liquid Sculk",
+      "block.sculk_mod.sculk_fence_gate": "Sculk Fence Gate",
       "block.sculk_mod.sculk_button": "Sculk Button",
       "item.sculk_mod.sculk_gem_hoe": "Sculk_Gem Hoe",
       "item.sculk_mod.sculk_gem_armor_boots": "Sculk_Gem Boots",
@@ -699,8 +699,8 @@
       "block.sculk_mod.sculk_pressure_plate": "Sculk Pressure Plate",
       "item.sculk_mod.sculk_gem_pickaxe": "Sculk_Gem Pickaxe",
       "entity.sculk_mod.phantomsculk": "Phantomsculk",
-      "block.sculk_mod.sculk_fence": "Sculk Fence",
       "entity.sculk_mod.cheap_warden": "Cheap Warden",
+      "block.sculk_mod.sculk_fence": "Sculk Fence",
       "advancements.we_nead_to_go_even_deeper.title": "We Nead To Go Even Deeper",
       "item.sculk_mod.liquid_sculk_bucket": "Liquid Sculk Bucket",
       "block.sculk_mod.sculk_stone": "Sculk Stone",
