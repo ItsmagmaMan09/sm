@@ -53,8 +53,7 @@ import java.util.EnumSet;
 
 @Mod.EventBusSubscriber
 public class PhantomsculkEntity extends Monster {
-	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("sculk_mod:forest"),
-			new ResourceLocation("sculk_mod:deep_dark"));
+	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("sculk_mod:sculk_plains"));
 
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {

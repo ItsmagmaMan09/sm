@@ -8,6 +8,7 @@ version="1.0.0"
 displayName="Sculk_Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 authors="ACJac, MCreator"
 
 [[dependencies.sculk_mod]]

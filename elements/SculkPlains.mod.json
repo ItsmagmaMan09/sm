@@ -42,7 +42,7 @@
     "spawnBiome": false,
     "spawnBiomeNether": false,
     "spawnInCaves": false,
-    "biomeWeight": 7,
+    "biomeWeight": 12,
     "biomeDictionaryTypes": [
       "PLAINS"
     ],

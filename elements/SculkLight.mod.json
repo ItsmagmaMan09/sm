@@ -78,7 +78,7 @@
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "frequencyOnChunks": 8,
+    "frequencyOnChunks": 20,
     "spawnWorldTypes": [
       "CUSTOM:SculkWorld"
     ],

@@ -36,7 +36,7 @@ public class SculkLightFeature extends RandomPatchFeature {
 		FEATURE = new SculkLightFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("sculk_mod:sculk_light", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 				new SimpleBlockConfiguration(BlockStateProvider.simple(SculkModModBlocks.SCULK_LIGHT.get().defaultBlockState())), List.of(), 4));
-		PLACED_FEATURE = PlacementUtils.register("sculk_mod:sculk_light", CONFIGURED_FEATURE, List.of(CountPlacement.of(8),
+		PLACED_FEATURE = PlacementUtils.register("sculk_mod:sculk_light", CONFIGURED_FEATURE, List.of(CountPlacement.of(20),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

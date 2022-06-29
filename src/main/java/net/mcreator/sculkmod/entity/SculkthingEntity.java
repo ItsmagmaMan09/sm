@@ -44,16 +44,11 @@ import net.mcreator.sculkmod.procedures.SculkthingPlayerCollidesWithThisEntityPr
 import net.mcreator.sculkmod.procedures.SculkthingEntityIsHurtProcedure;
 import net.mcreator.sculkmod.init.SculkModModEntities;
 
-import java.util.Set;
-
 @Mod.EventBusSubscriber
 public class SculkthingEntity extends Monster {
-	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("sculk_mod:forest"));
-
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		if (SPAWN_BIOMES.contains(event.getName()))
-			event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(SculkModModEntities.SCULKTHING.get(), 20, 4, 4));
+		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(SculkModModEntities.SCULKTHING.get(), 20, 4, 4));
 	}
 
 	public SculkthingEntity(PlayMessages.SpawnEntity packet, Level world) {

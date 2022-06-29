@@ -38,17 +38,11 @@ import net.minecraft.network.protocol.Packet;
 import net.mcreator.sculkmod.init.SculkModModItems;
 import net.mcreator.sculkmod.init.SculkModModEntities;
 
-import java.util.Set;
-
 @Mod.EventBusSubscriber
 public class SculkWalkerEntity extends Monster {
-	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("sculk_mod:forest"),
-			new ResourceLocation("sculk_mod:sculk_plains"));
-
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		if (SPAWN_BIOMES.contains(event.getName()))
-			event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(SculkModModEntities.SCULK_WALKER.get(), 20, 4, 4));
+		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(SculkModModEntities.SCULK_WALKER.get(), 20, 4, 4));
 	}
 
 	public SculkWalkerEntity(PlayMessages.SpawnEntity packet, Level world) {

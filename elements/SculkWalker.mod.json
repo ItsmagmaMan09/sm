@@ -115,14 +115,7 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Forest"
-      },
-      {
-        "value": "CUSTOM:SculkPlains"
-      }
-    ],
+    "restrictionBiomes": [],
     "spawnInDungeons": false
   }
 }
