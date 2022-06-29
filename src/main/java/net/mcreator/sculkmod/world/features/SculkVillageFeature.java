@@ -13,7 +13,6 @@ import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.Level;
 import net.minecraft.resources.ResourceLocation;
@@ -25,7 +24,6 @@ import net.minecraft.core.Holder;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.sculkmod.procedures.SpawnVillagerProcedure;
-import net.mcreator.sculkmod.init.SculkModModBlocks;
 
 import java.util.Set;
 import java.util.List;
@@ -49,12 +47,10 @@ public class SculkVillageFeature extends Feature<NoneFeatureConfiguration> {
 	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("sculk_mod:sculk_plains"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set
 			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("sculk_mod:sculk_world")));
-	private final List<Block> base_blocks;
 	private StructureTemplate template = null;
 
 	public SculkVillageFeature() {
 		super(NoneFeatureConfiguration.CODEC);
-		base_blocks = List.of(SculkModModBlocks.SCULK_GRASS.get());
 	}
 
 	@Override
@@ -62,19 +58,16 @@ public class SculkVillageFeature extends Feature<NoneFeatureConfiguration> {
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("sculk_mod", "well"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("sculk_mod", "house2"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
-		if ((context.random().nextInt(1000000) + 1) <= 10000) {
-			int count = context.random().nextInt(1) + 3;
+		if ((context.random().nextInt(1000000) + 1) <= 40000) {
+			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
 				int k = context.origin().getZ() + context.random().nextInt(16);
-				int j = context.level().getHeight(Heightmap.Types.OCEAN_FLOOR_WG, i, k);
-				j += context.random().nextInt(64) + 16;
-				if (!base_blocks.contains(context.level().getBlockState(new BlockPos(i, j, k)).getBlock()))
-					continue;
+				int j = context.level().getHeight(Heightmap.Types.OCEAN_FLOOR_WG, i, k) - 1;
 				BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 				WorldGenLevel world = context.level();
 				int x = spawnTo.getX();

@@ -84,7 +84,7 @@ public class Sculk_GemOreFeature extends OreFeature {
 
 		public boolean test(BlockState blockAt, Random random) {
 			if (base_blocks == null) {
-				base_blocks = List.of(SculkModModBlocks.SCULK_BLOCK.get());
+				base_blocks = List.of(SculkModModBlocks.SCULK_STONE.get());
 			}
 			return base_blocks.contains(blockAt.getBlock());
 		}

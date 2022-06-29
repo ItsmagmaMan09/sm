@@ -4,13 +4,10 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:Forest"
-      },
-      {
         "value": "CUSTOM:SculkPlains"
       },
       {
-        "value": "CUSTOM:DeepDark"
+        "value": "CUSTOM:Forest"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -28,7 +25,7 @@
     "hasFog": false,
     "isDark": true,
     "doesWaterVaporize": false,
-    "sleepResult": "BED_EXPLODES",
+    "sleepResult": "DENY",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {

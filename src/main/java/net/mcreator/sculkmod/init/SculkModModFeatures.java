@@ -34,7 +34,7 @@ public class SculkModModFeatures {
 	public static final RegistryObject<Feature<?>> SCULK_GEM_ORE = register("sculk_gem_ore", Sculk_GemOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, Sculk_GemOreFeature.GENERATE_BIOMES, Sculk_GemOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> SCULK_VILLAGE = register("sculk_village", SculkVillageFeature::feature, new FeatureRegistration(
-			GenerationStep.Decoration.RAW_GENERATION, SculkVillageFeature.GENERATE_BIOMES, SculkVillageFeature::placedFeature));
+			GenerationStep.Decoration.SURFACE_STRUCTURES, SculkVillageFeature.GENERATE_BIOMES, SculkVillageFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> SCULK_LIGHT = register("sculk_light", SculkLightFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.VEGETAL_DECORATION, SculkLightFeature.GENERATE_BIOMES, SculkLightFeature::placedFeature));
 

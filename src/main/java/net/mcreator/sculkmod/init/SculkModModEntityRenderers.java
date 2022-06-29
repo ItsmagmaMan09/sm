@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.sculkmod.client.renderer.SculkthingRenderer;
 import net.mcreator.sculkmod.client.renderer.SculkfoxRenderer;
+import net.mcreator.sculkmod.client.renderer.SculkWalkerRenderer;
 import net.mcreator.sculkmod.client.renderer.PhantomsculkRenderer;
 import net.mcreator.sculkmod.client.renderer.CheapWardenRenderer;
 
@@ -22,5 +23,6 @@ public class SculkModModEntityRenderers {
 		event.registerEntityRenderer(SculkModModEntities.CHEAP_WARDEN.get(), CheapWardenRenderer::new);
 		event.registerEntityRenderer(SculkModModEntities.SCULKTHING.get(), SculkthingRenderer::new);
 		event.registerEntityRenderer(SculkModModEntities.PHANTOMSCULK.get(), PhantomsculkRenderer::new);
+		event.registerEntityRenderer(SculkModModEntities.SCULK_WALKER.get(), SculkWalkerRenderer::new);
 	}
 }

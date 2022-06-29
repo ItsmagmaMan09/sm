@@ -127,7 +127,7 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "CUSTOM:SculkBlock"
+        "value": "CUSTOM:SculkStone"
       }
     ],
     "generationShape": "UNIFORM",
